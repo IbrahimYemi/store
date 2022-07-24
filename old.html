@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="normal.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Mateerial+Icons">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">IBRAHIM S.O.</h1><br>
+            <button id="wrapers">TIME & DATE</button>
+        </header>
+        <div  class="row">
+            <div class="top">
+                <nav class="nav col-md-3 col-l-3 menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio></a>
+                        <div class="submenu" >
+                            <ul>
+                            <li><a href="Taocalculator.html" >Simple calculator</a></li>
+                            <li><a href="blackjack.html" >Blackjack Game</a></li>
+                            <li><a href="responsiveness.html" >Responsive site</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="cont">
+                    <div id="home" class="home main col-md-9 col-l-6">
+                        <h2 class="open">I`M IBRAHIM,<br><br><span> SARAFADEEN OPEYEMI</span></h2>
+                        <div class="about" id="about" >
+                            <img src="imaag.jpeg" alt="image" height="150px" width="100px">
+                            <p>IBRAHIM, Sarafadeen Opeyemi a software developer with the basic and prominent understanding of
+                                CSS, HTML and JavaScript in designing and developing a good and dynamic software functions. With little 
+                                experience , I am ambitious, career focused job seeker, anxious to obtain a programmer position to help 
+                                boost my career while achieving employers goal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="remain">
+                    <div class="skills col-md-12 col-l-3 aside">
+                        <div id="skills" >
+                            <p>SKILLS</p>
+                            <dl>
+                                <dt>HTML</dt>
+                                <dd><input type="range" min="0" max="100" value="75"></dd><hr>
+                                <dt>CSS</dt>
+                                <dd><input type="range" min="0" max="100" value="75"></dd><hr>
+                                <dt>JAVASCRIPT</dt>
+                                <dd><input type="range" min="0" max="100" value="70"></dd><hr>
+                                <dt>BOOTSRAP</dt>
+                                <dd><input type="range" min="0" max="100" value="60"></dd><hr>
+                                <dt>SASS</dt>
+                                <dd><input type="range" min="0" max="100" value="85"></dd><hr>
+                                <dt>WORDPRESS</dt>
+                                <dd><input type="range" min="0" max="100" value="45"></dd><hr>
+
+                            </dl>
+                        </div>
+                        <div class="portfolio" id="portfolio" >
+                            <P>PORTFOLIO</P>
+                            <h2>Web Pages Designed By Me.</h2>
+                            <div class="flexx">
+                                <img class="imageslide" id="slider" src="img1.jpg" width="500px" height="550px"/><br>
+                                <div><button onclick="next(-1)" class="leftButton"> prev </button>
+                                <button onclick="next(+1)" class="rightButton"> next </button></div>
+                            </div>
+                            <br><br>
+                            <h2>Web Applications Programmed By Me.</h2>
+                            <div class="flexx">
+                                <img class="imageslide" id="sliderapp" src="app1.jpg" width="450px" height="500px"/><br>
+                                <div><button onclick="move(-1)" class="leftButton"> prev </button>
+                                <button onclick="move(+1)" class="rightButton"> next </button></div>
+                            </div> 
+                        </div>
+                    </div>
+                    <footer>
+                        <div class="footer" id="footer" >
+                            <li><a href="#"><i class="material-icons">person</i></a>: IBRAHIM, Sarafadeen Opeyemi</li>
+                            <li><a href="#"><i class="material-icons">email</i></a>: Ibrahimsharafadeen95@gmail.com</li>
+                            <li><a href="#"><i class="material-icons">phone</i></a>: +234 814 353 2294</li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a>: Ibrahim-Sarafadeen</li>
+                            <li><a href="#"><i class="fab fa-github"></i></a>: Deanyemi134</li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a>: @Sharafa224</li>
+                        </div>
+                    </footer>
+            </div>    
+        </div>
+        <script src="script.js">
+        </script>
+    </body>
+</html>

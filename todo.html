@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo List</title>
+
+	<link rel="stylesheet" href="todostyle.css" />
+</head>
+<body>
+	<div class="body">
+		<div class="container"> 
+			<main>
+				<h1>MY TO-DO LIST</h1>
+				<form id="new-task-form" class="inputplace">
+					<input 
+						type="text"
+						class="typesection" 
+						name="new-task-input" 
+						id="new-task-input" 
+						placeholder="what do i have planned?" />
+					<button 
+						type="submit"
+						id="new-task-submit" 
+						value="Add task" >ADD TASK</button>
+				</form>
+			</main>
+			<section class="task-list">
+				<h2>Tasks</h2>
+
+			
+
+				<div id="tasks" class="task" class="display">
+					<!-- <div class="content">
+						<input 
+							type="text" 
+							class="words" 
+							value="A new task"
+							readonly/>
+						
+						<button class="edit">EDIT</button>
+						<button class="delete">DELETE</button>
+					</div>
+						 -->
+
+				</div>
+				
+			</section>
+		</div>
+	</div>
+
+	<script src="todomain.js"></script>
+</body>
+</html>

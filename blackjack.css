@@ -1,0 +1,39 @@
+body{
+  background:#6f7541;
+  }
+  .div2{
+  margin: auto;
+  border: 3px solid none;
+  padding: 10px;
+  text-align:center;
+  background:rgb(0,90,0);
+  background-repeat:no-repeat;
+  color:white;
+  font-weight:bold;
+  height:100%;
+  width:250px;
+  border-radius:15px 0px 15px 0px;
+  }
+  h1{
+  color:goldenrod;
+  }
+  #message{
+  font-style:italic;
+  }
+  button {
+  display:inline-block;
+  color:#000333;
+  width:180px;
+  background:goldenrod;
+  padding-top:3px;
+  padding-bottom:3px;
+  margin:2px;
+  border:none;
+  border-radius:4px;
+  font-weight:bolder;
+  outline:none;
+  }
+  button:hover{
+  	background:#ececec;
+    transition:0.3s;
+  }
